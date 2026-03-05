@@ -1,0 +1,276 @@
+.mainSection {
+	background-color: black;
+	font-family: var(--font-primary);
+	hyphens: none;
+	padding-top: 24px;
+}
+
+.titleContainer {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	z-index: 1;
+	justify-content: center;
+	align-items: center;
+	/* margin-top: 24px; */
+	font-family: var(--font-primary);
+	color: var(--white-color);
+}
+
+.titleContainer h1 {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 800;
+}
+
+.titleContainer h1 span {
+	position: relative;
+	font-family: var(--font-alternative);
+}
+
+.titleContainer h1 span b {
+	background: linear-gradient(270deg, #4d89f9 1.21%, #704ee7 21.78%, #e8428c 71.65%, #ed6d4b 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.titleContainer h1 span img {
+	position: absolute;
+	bottom: -10px;
+	right: 10px;
+	max-width: 220px;
+}
+
+.titleContainer p {
+	font-size: 18px;
+	text-align: center;
+	margin-top: 24px;
+	font-weight: 500;
+	max-width: 600px;
+}
+
+.lastTitle {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 0 24px;
+}
+
+.lastTitle span {
+	background: linear-gradient(270deg, #4d89f9 1.21%, #704ee7 21.78%, #e8428c 71.65%, #ed6d4b 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+}
+
+img {
+	border-radius: 10px;
+}
+
+.imgContainer {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin: 30px auto 0;
+	height: 580px;
+}
+
+.imgContainer {
+	max-width: 1000px;
+	border-radius: 20px;
+}
+
+.mainContainer {
+	display: flex;
+	gap: 24px;
+	max-width: 1440px;
+	padding: 24px;
+	margin: 0 auto;
+}
+
+.container1 {
+	width: 50%;
+	position: relative;
+}
+
+.container1 p {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 24px 0;
+	line-height: 30px;
+	letter-spacing: 2px;
+	hyphens: none;
+}
+
+.container1 p span {
+	background: linear-gradient(270deg, #4d89f9 1.21%, #704ee7 21.78%, #e8428c 71.65%, #ed6d4b 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+}
+
+.container1 div {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.container1 div a {
+	position: relative;
+	display: flex;
+	gap: 6px;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-secondary);
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 6px;
+	width: 200px;
+	height: 50px;
+	background: linear-gradient(270deg, #4d89f9 20%, #704ee7 40%, #e8428c 80%, #ed6d4b 100%);
+	background-size: 150%;
+	transition: all 0.4s ease-in-out;
+	background-position: left;
+}
+
+.container1 div a:hover {
+	background-position: right;
+	transition: all 0.4s ease-in-out;
+}
+
+.container1 div a svg {
+	font-size: 18px;
+	width: 20px;
+}
+
+.container1 div h2 {
+	font-size: 16px;
+	font-family: var(--font-secondary);
+}
+
+.container1 div h2 span {
+	font-size: 36px;
+	font-family: var(--font-primary);
+	font-weight: 800;
+}
+
+.container2 {
+	width: 50%;
+}
+
+.container2 div {
+	display: flex;
+	gap: 24px;
+	margin-bottom: 24px;
+}
+
+/* .container2 div img {
+	max-width: calc(50% - 12px);
+} */
+
+.playButton {
+	position: absolute;
+	cursor: pointer;
+	margin-bottom: 0 !important;
+	transition: all 0.2s ease-out;
+}
+
+.playButton:hover {
+	transform: scale(1.2);
+	transition: all 0.2s ease-out;
+}
+
+.playButton img {
+	max-width: 40px;
+}
+
+.playButtonPosition1 {
+	bottom: 12px;
+	right: 12px;
+}
+
+@media screen and (max-width: 1050px) {
+	.imgContainer {
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.mainContainer {
+		flex-direction: column;
+	}
+
+	.container1 {
+		width: 100%;
+	}
+
+	.container2 {
+		width: 100%;
+	}
+
+	.container2 div {
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.titleContainer h1 {
+		font-size: 40px;
+		padding: 0 12px;
+	}
+
+	.titleContainer p {
+		padding: 0 24px;
+	}
+
+	.imgContainer {
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.container2 div {
+		flex-direction: column;
+		padding-right: 0;
+	}
+
+	.imgContainer {
+		height: 300px;
+	}
+
+	/* .container2 div img {
+		max-width: 100%;
+	} */
+}
+
+@media screen and (max-width: 520px) {
+	.titleContainer h1 {
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.titleContainer h1 {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.container1 div {
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.container1 p {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+
+	.imgContainer {
+		height: 200px;
+	}
+}

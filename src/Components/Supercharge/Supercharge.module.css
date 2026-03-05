@@ -1,0 +1,254 @@
+.mainSection {
+	background-color: #02000f;
+}
+
+.mainContainer {
+	margin: 0 auto;
+	max-width: 1440px;
+	hyphens: none;
+	padding-top: 24px;
+}
+
+.mainContainer2 {
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 0 auto 24px;
+	max-width: 1440px;
+	justify-content: center;
+	hyphens: none;
+}
+
+.topContainer {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 24px;
+}
+
+.topContainer h1 {
+	font-family: var(--font-primary);
+	/* color: #00c4f4; */
+	color: white;
+	font-size: 48px;
+	font-weight: 600;
+	max-width: 650px;
+}
+
+.titleTopContainer {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-bottom: 24px;
+}
+
+.titleTopContainer h3 {
+	font-family: var(--font-primary);
+	font-size: 18px;
+	font-weight: 600;
+	color: #ed6d4a;
+}
+
+.line {
+	height: 2px;
+	width: 120px;
+	background: linear-gradient(90deg, transparent, #ed6d4a 40%, #ed6d4a 60%, transparent);
+}
+
+.topContainer p {
+	font-family: var(--font-secondary);
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--gray-text);
+	max-width: 415px;
+}
+
+.line2 {
+	height: 1px;
+	width: 100%;
+	background: rgb(175, 175, 175);
+	margin-top: 24px;
+	opacity: 0.2;
+}
+
+.cardContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 48px 12px 24px;
+	max-width: 270px;
+	min-width: 240px;
+}
+
+.cardContainer img {
+	max-width: 60px;
+	margin-bottom: 24px;
+}
+
+.cardContainer h1 {
+	font-family: var(--font-primary);
+	font-size: 30px;
+	font-weight: 900;
+	color: #00c4f4;
+}
+
+.cardContainer h2 {
+	font-family: var(--font-primary);
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+.cardContainer p {
+	font-family: var(--font-secondary);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--gray-text);
+}
+
+.line3 {
+	height: 270px;
+	width: 1px;
+	background: rgb(175, 175, 175);
+	opacity: 0.2;
+}
+
+.buttonsContainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+	gap: 24px;
+}
+
+.buttonsContainer a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	width: 250px;
+	height: 50px;
+	font-weight: 500;
+	font-family: var(--font-primary);
+	gap: 6px;
+}
+
+.button1 {
+	position: relative;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	color: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+.button1::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	z-index: 2;
+	border-radius: inherit;
+	background-image: linear-gradient(90deg, #0d003b 21%, #ee9558 50%, #0d003b 80%);
+	background-size: 250%;
+	background-position: left;
+	transition: all 0.5s ease;
+}
+
+.button1::after {
+	content: '';
+	position: absolute;
+	inset: -1px;
+	z-index: 1;
+	border-radius: inherit;
+	background-image: linear-gradient(90deg, #6a41fb 10.35%, #f49959 92.29%);
+}
+
+.button1 span {
+	display: inline-block;
+	z-index: 2;
+}
+
+.button1 svg {
+	display: inline-block;
+	z-index: 2;
+	max-width: 20px;
+}
+
+.button1:hover::before {
+	background-position: right;
+	transition: all 0.4s ease-in-out;
+}
+
+/* .button1:hover {
+	background-position: right;
+	transition: all 0.4s ease-in-out;
+}
+
+.button1:hover svg {
+	transform: rotate(360deg);
+}
+
+.button1 svg {
+	font-size: 18px;
+	width: 20px;
+	transform: rotate(320deg);
+	transition: all 0.2s ease-in-out;
+	margin-left: 6px;
+} */
+
+@media screen and (max-width: 1100px) {
+	.topContainer h1 {
+		max-width: 500px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.mainContainer2 {
+		flex-wrap: wrap;
+	}
+
+	.cardContainer {
+		width: 300px;
+		max-width: 100%;
+	}
+
+	.line3 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 820px) {
+	.topContainer h1 {
+		font-size: 38px;
+		max-width: 100%;
+		padding-right: 24px;
+	}
+}
+
+@media screen and (max-width: 615px) {
+	.topContainer {
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	.topContainer h1 {
+		padding-right: 0;
+	}
+
+	.topContainer p {
+		max-width: 100%;
+	}
+
+	.cardContainer {
+		padding: 36px 24px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.buttonsContainer {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.topContainer h1 {
+		text-align: center;
+	}
+}

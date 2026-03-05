@@ -1,0 +1,117 @@
+.player iframe {
+	border-radius: 20px;
+}
+
+.player2 iframe {
+	border-radius: 20px;
+}
+
+.player-wrapper {
+	position: relative;
+	/* padding-top: 56.25%; */
+	padding-top: 30.25%;
+}
+
+.player {
+	/* position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto; */
+	max-height: 562px;
+	max-width: 1000px;
+}
+
+.player2 {
+	/* position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: none; */
+	max-height: 562px;
+	max-width: 316px;
+}
+
+@media screen and (max-width: 1630px) {
+	.player-wrapper {
+		padding-top: 40.25%;
+	}
+}
+
+@media screen and (max-width: 1385px) {
+	.player-wrapper {
+		padding-top: 45.25%;
+	}
+}
+
+@media screen and (max-width: 1230px) {
+	.player-wrapper {
+		padding-top: 50.25%;
+	}
+}
+
+@media screen and (max-width: 1108px) {
+	.player-wrapper {
+		padding-top: 56.25%;
+	}
+}
+
+/* @media screen and (max-width: 550px) {
+	.player {
+		display: none;
+	}
+
+	.player2 {
+		display: flex;
+	}
+
+	.player-wrapper {
+		padding-top: 174.25%;
+	}
+} */
+
+/* 
+.player2 iframe {
+	border-radius: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+	.player {
+		width: 700px !important;
+		height: 400px !important;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.player {
+		width: 500px !important;
+		height: 280px !important;
+	}
+}
+
+@media screen and (max-width: 528px) {
+	.player {
+		width: 400px !important;
+		height: 220px !important;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.player {
+		height: 200px !important;
+	}
+}
+
+@media screen and (max-width: 385px) {
+	.player {
+		height: 180px !important;
+	}
+}
+
+@media screen and (max-width: 332px) {
+	.player {
+		width: 300px !important;
+		height: 150px !important;
+	}
+} */

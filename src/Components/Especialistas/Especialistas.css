@@ -1,0 +1,35 @@
+.swiper-pagination-horizontal-especialista {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	max-width: 160px;
+	height: 50px;
+	background-color: #ededed17;
+	/* background: none; */
+	/* border: 1px solid var(--primary-blue); */
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+	border-radius: 50px;
+	margin: 0 auto;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.swiper-pagination-especialista {
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	background: rgb(209, 209, 209) !important;
+	opacity: 1;
+	transition: all 0.3s ease-out;
+	border-radius: 50%;
+	/* box-shadow: 1px 1px 2px rgb(0, 0, 0); */
+}
+
+.swiper-pagination-especialista-active {
+	background: linear-gradient(90deg, #8b53fe, #362e60) !important;
+	/* box-shadow: none; */
+	border-radius: 10px;
+	width: 40px;
+}

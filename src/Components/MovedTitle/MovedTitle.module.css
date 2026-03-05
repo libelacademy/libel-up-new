@@ -1,0 +1,68 @@
+.mainSection {
+	margin-top: 24px;
+	font-family: var(--font-primary);
+	overflow: hidden;
+}
+
+.titleContainer {
+	position: relative;
+	width: 100%;
+	/* overflow: hidden; */
+	margin-top: 24px;
+}
+
+.titleContainer h1 {
+	font-size: 60px;
+	font-weight: 700;
+	-webkit-text-stroke: 2px white;
+	color: transparent;
+	flex-shrink: 0;
+}
+
+.titleContainer h2 {
+	font-size: 60px;
+	font-weight: 700;
+	color: var(--white-color);
+	flex-shrink: 0;
+}
+
+.moved {
+	position: relative;
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+	align-items: center;
+	gap: 24px;
+	height: 120px;
+	rotate: 358deg;
+	animation: 100s linear infinite movedText;
+}
+
+.titleContainer::after {
+	content: '';
+	position: absolute;
+	inset-block-start: 0;
+	inset-inline: 0;
+	height: 0.5rem;
+	background: linear-gradient(270deg, #f22fb0 0.48%, #ff7426 93.92%);
+	transform: rotate(358deg);
+}
+
+.asterisco {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+@keyframes movedText {
+	0% {
+		transform: translateX(20px);
+	}
+
+	50% {
+		transform: translateX(-5500px);
+	}
+
+	100% {
+		transform: translateX(20px);
+	}
+}
