@@ -8,7 +8,7 @@ import { BiDownload } from 'react-icons/bi';
 
 // import Image from 'react-image-webp';
 import flecha from '../../assets/flecha-derecha.png';
-import candado from '../../assets/candado.svg';
+import candado from '../../assets/candado.png';
 
 // import { openVideo } from '../../features/video';
 // import { useDispatch } from 'react-redux';

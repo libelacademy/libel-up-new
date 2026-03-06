@@ -13,10 +13,10 @@ const Gallery = () => {
 		<section className={style.mainSection}>
 			<div className={style.mainContainer}>
 				<div className={style.bubble}>
-					<span>Se parte de la comunidad LIBEL</span>
+					<span>Completa los niveles y gana</span>
 				</div>
 
-				<h1>RESULTADOS DE ALUMNOS</h1>
+				<h1>EL GRAN PREMIO</h1>
 				<div className={style.grid}>
 					<div className={style.gallery1}>
 						{/* <img src={img1} alt='1' /> */}

@@ -26,6 +26,10 @@ const contentMasterYear = [
 		video: 'https://www.youtube.com/watch?v=KejwiSOTbHg&ab_channel=LIBELACADEMY',
 		items: [
 			{
+				item: 'Tiempo de reto: 7 días.',
+				more: null,
+			},
+			{
 				item: 'Acceso 1 mes.',
 				more: null,
 			},
@@ -35,10 +39,6 @@ const contentMasterYear = [
 			},
 			{
 				item: 'Acceso a discord.',
-				more: null,
-			},
-			{
-				item: 'Feedback en vivo.',
 				more: null,
 			},
 			{
@@ -102,6 +102,10 @@ const contentMasterYear = [
 		video: 'https://www.youtube.com/watch?v=Zvrgt3T4k90&ab_channel=LIBELACADEMY',
 		items: [
 			{
+				item: 'Tiempo de reto: 7 días.',
+				more: null,
+			},
+			{
 				item: 'Acceso 1 mes.',
 				more: null,
 			},
@@ -111,10 +115,6 @@ const contentMasterYear = [
 			},
 			{
 				item: 'Acceso a discord.',
-				more: null,
-			},
-			{
-				item: 'Feedback en vivo.',
 				more: null,
 			},
 			{
@@ -179,6 +179,10 @@ const contentMasterYear = [
 		video: 'https://www.youtube.com/watch?v=y4H2fP_p8jQ&ab_channel=LIBELACADEMY',
 		items: [
 			{
+				item: 'Tiempo de reto: 7 días.',
+				more: null,
+			},
+			{
 				item: 'Acceso 1 mes.',
 				more: null,
 			},
@@ -188,10 +192,6 @@ const contentMasterYear = [
 			},
 			{
 				item: 'Acceso a discord.',
-				more: null,
-			},
-			{
-				item: 'Feedback en vivo.',
 				more: null,
 			},
 			{
@@ -252,6 +252,10 @@ const contentMasterYear = [
 		video: 'https://www.youtube.com/watch?v=iLfsvgChDNY&ab_channel=LIBELACADEMY',
 		items: [
 			{
+				item: 'Tiempo de reto: 10 días.',
+				more: null,
+			},
+			{
 				item: 'Acceso 1 mes.',
 				more: null,
 			},
@@ -261,10 +265,6 @@ const contentMasterYear = [
 			},
 			{
 				item: 'Acceso a discord.',
-				more: null,
-			},
-			{
-				item: 'Feedback en vivo.',
 				more: null,
 			},
 			{
@@ -327,6 +327,10 @@ const contentMasterYear = [
 		video: 'https://www.youtube.com/watch?v=FRB0vkEUTZg&ab_channel=LIBELACADEMY',
 		items: [
 			{
+				item: 'Tiempo de reto: 15 días.',
+				more: null,
+			},
+			{
 				item: 'Acceso 1 mes.',
 				more: null,
 			},
@@ -336,10 +340,6 @@ const contentMasterYear = [
 			},
 			{
 				item: 'Acceso a discord.',
-				more: null,
-			},
-			{
-				item: 'Feedback en vivo.',
 				more: null,
 			},
 			{
@@ -394,7 +394,7 @@ const contentMasterYear = [
 	},
 	{
 		id: '6',
-		title: 'RETO FINAL',
+		title: 'PACK LIBEL UP',
 		image: nivel6,
 		description:
 			'Vive una experiencia con la última versión de Blender y libera el gran talento que hay en ti.',
@@ -447,11 +447,10 @@ const contentMasterYear = [
 			},
 			{
 				id: 2,
-				title: 'Elije el ultimo reto',
+				title: '29,95 USD',
 				price: '',
 				urls: {
-					paypal:
-						'https://libel.academy/pago-paypal/payment.html?YW1vdW50PTU5JmlkPTUwJSBEdG8gRGVhdGggMngxIFpCcnVzaCBKdW5pb3IgQWNjZXNvIEHxbw==',
+					paypal: 'https://pay.hotmart.com/H104779741X?off=9ivfm9ty',
 					card: 'https://checkout.wompi.co/l/pvj9Dw',
 				},
 				line: false,
@@ -461,8 +460,8 @@ const contentMasterYear = [
 		],
 		modal: {
 			modalCopy:
-				'El reto definitivo. Elige tu personaje; recuerda que es obligatorio haber aprobado todos los niveles anteriores.',
-			modalButton: 'Elige tu último reto',
+				'Accede al Pack completo de los 5 niveles Libel UP. Tendrás acceso 5 meses desde tu compra para completar el reto (revisa términos y condiciones en el temario).',
+			modalButton: '¡Comienza ahora!',
 		},
 	},
 ];

@@ -18,6 +18,7 @@ import FooterNew from '../Components/FooterNew/FooterNew';
 
 import Especialistas from '../Components/Especialistas/Especialistas';
 import Gallery from '../Components/Gallery/Gallery';
+import ImageGallery from '../Components/ImageGallery/ImageGallery';
 
 const Inicio = () => {
 	// const [banner, setBanner] = useState(true);
@@ -37,6 +38,7 @@ const Inicio = () => {
 			{/* <MovedTitle2 /> */}
 			<Master />
 			{/* <Component1 /> */}
+			<ImageGallery />
 			<Gallery />
 			<Powerful />
 			<Brands />

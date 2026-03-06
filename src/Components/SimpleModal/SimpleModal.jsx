@@ -36,8 +36,7 @@ function SimpleModal({ close, handlerClose, handleCloseModal, url, modalInfo }) 
 							{' '}
 							<u>coordinacion@libeluniversity.org</u>{' '}
 						</b>
-						para recibir el formulario de inscripción. Este paso es esencial para acceder al 3D
-						CAMP. <br />
+						para recibir el formulario de inscripción. Este paso es esencial para acceder al LIBEL UP. <br />
 					</p> */}
 
 					{/* <span> Selecciona un asesor para continuar al pago </span> */}
