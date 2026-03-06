@@ -78,7 +78,7 @@ const contentMasterYear = [
 				title: '5,99 USD',
 				price: '14.99 USD',
 				urls: {
-					paypal: 'https://pay.hotmart.com/C103731235O?off=b0xs1v5z',
+					paypal: 'https://pay.hotmart.com/C103731235O?off=o4l9uatc',
 					card: 'https://checkout.wompi.co/l/APM5Wz',
 				},
 				line: false,
