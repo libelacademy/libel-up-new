@@ -230,8 +230,11 @@ const Navbar = () => {
 					<a href='https://libel.academy/master' style={{ marginRight: 20 }}>
 						Masters
 					</a>
-					<a href='https://libel.academy/3d-camp' style={{ marginRight: 20 }}>
+					{/* <a href='https://libel.academy/3d-camp' style={{ marginRight: 20 }}>
 						3D Camp
+					</a> */}
+					<a href='https://www.libel.academy/libel-up' style={{ marginRight: 20 }}>
+						LIBEL UP
 					</a>
 					{/* <a href='https://cursos.libel.academy' style={{ marginRight: 20 }}>
 						Cursos
@@ -306,12 +309,12 @@ const Navbar = () => {
 									transform: 'translateX(0)',
 									visibility: 'visible',
 									opacity: 1,
-							  }
+								}
 							: {
 									transform: 'translateX(100%)',
 									visibility: 'hidden',
 									opacity: 1,
-							  }
+								}
 					}
 				>
 					<li className='menu-countdown'>
@@ -384,6 +387,9 @@ const Navbar = () => {
 						>
 							Escuelas <IoChevronForward />
 						</span>
+						<a href='https://www.libel.academy/libel-up' className='menu-shortcuts-item'>
+							LIBEL UP
+						</a>
 						<a href='https://libel.academy/3d-camp' className='menu-shortcuts-item'>
 							3D Camp
 						</a>
@@ -415,11 +421,11 @@ const Navbar = () => {
 									? {
 											transform: 'translateX(0)',
 											visibility: 'visible',
-									  }
+										}
 									: {
 											transform: 'translateX(100%)',
 											visibility: 'hidden',
-									  }
+										}
 							}
 						>
 							<span
@@ -526,11 +532,17 @@ const Navbar = () => {
 						<div className='courses-column'>
 							<h3>ENTRENAMIENTOS</h3>
 							<ul>
-								<li>
+								{/* <li>
 									<div className='corses-bullet-point'>
 										<img src={bulletPoint1} alt='bullet point' />
 									</div>
 									<a href='https://libel.academy/master/'>Masters</a>
+								</li> */}
+								<li>
+									<div className='corses-bullet-point'>
+										<img src={bulletPoint1} alt='bullet point' />
+									</div>
+									<a href='https://www.libel.academy/3d-camp'>3D Camp</a>
 								</li>
 								<li>
 									<div className='corses-bullet-point'>

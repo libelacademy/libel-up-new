@@ -46,7 +46,7 @@ const Powerful = () => {
 						procesos. Cuando haces crecer a la comunidad, tu oportunidad de ganar, también crece.
 					</p>
 
-					<a href='https://www.libel.academy/impresion-3d-con-blender/'>Máster en impresión 3D</a>
+					<a href='https://www.libel.academy/impresion-3d-con-blender/'>Impresión 3D</a>
 				</div>
 				<div className={style.containerInfo}>
 					<div className={style.welcome}>
@@ -60,7 +60,7 @@ const Powerful = () => {
 						<div className={style.list}>
 							<p>
 								Si tu proyecto final es aprobado, podrás ganar una BECA TOTAL o PARCIAL para
-								especializarte en nuestros Másters de Blender o Impresión 3D. Este challenge no es
+								especializarte en nuestro Máster en Blender o Impresión 3D. Este challenge no es
 								solo una experiencia creativa, es una oportunidad real para dar el salto al nivel
 								profesional y acercarte a lo que exige la industria.
 							</p>

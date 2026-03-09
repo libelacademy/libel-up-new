@@ -56,7 +56,7 @@ const Whatsapp = () => {
 						name={'Ayuda 24/7'}
 						dependency={'Libel Academy'}
 						avatar={avatar1}
-						url='https://wa.link/c38fo6'
+						url='https://api.whatsapp.com/send?phone=573105868543&text=Hola%2C%20estoy%20interesad%40%20en%20LIBEL%20UP'
 					/>
 					{/* <MemberTag
                         name={"Administrativo"}

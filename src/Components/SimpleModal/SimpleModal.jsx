@@ -3,8 +3,6 @@ import './SimpleModal.css';
 import { IoClose } from 'react-icons/io5';
 
 function SimpleModal({ close, handlerClose, handleCloseModal, url, modalInfo }) {
-	console.log(modalInfo);
-
 	return (
 		<div className={`Inscriptions ${close ? 'close' : ''}`} onClick={handleCloseModal}>
 			<div className={`Inscriptions-content ${close ? 'close' : ''}`}>

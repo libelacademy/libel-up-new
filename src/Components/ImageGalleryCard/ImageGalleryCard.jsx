@@ -2,8 +2,6 @@ import React from 'react';
 import style from './ImageGalleryCard.module.css';
 
 const ImageGalleryCard = ({ content, handlerClose }) => {
-	console.log(content.url);
-
 	return (
 		<div className={style.mainContainer} onClick={() => handlerClose(content.url, content.modal)}>
 			<div className={style.imgContainer}>
