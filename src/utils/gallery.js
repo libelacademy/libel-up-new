@@ -7,7 +7,7 @@ const gallery = [
 	{
 		title: 'Nekosui',
 		technology: 'Blender',
-		price: '19,90 USD',
+		price: '29 USD',
 		priceBefore: '99.9 USD',
 		img: nave,
 		buttonName: 'Inicia el reto',
@@ -21,7 +21,7 @@ const gallery = [
 	{
 		title: 'Character for animation',
 		technology: 'Blender',
-		price: '19,90 USD',
+		price: '29 USD',
 		priceBefore: '50 USD',
 		img: niño,
 		buttonName: 'Inicia el reto',
@@ -35,7 +35,7 @@ const gallery = [
 	{
 		title: 'Sunny Cat',
 		technology: 'Blender',
-		price: '19,90 USD',
+		price: '29 USD',
 		priceBefore: '79,89 USD',
 		img: gato,
 		buttonName: 'Inicia el reto',
