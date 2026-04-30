@@ -11,7 +11,7 @@ import Yuriko from '../assets/content-master/Yurico.png';
 
 import nivel1 from '../assets/content-master/Nivel1.png';
 import nivel2 from '../assets/content-master/Nivel2.png';
-import nivel3 from '../assets/content-master/Nivel3_gris.png';
+import nivel3 from '../assets/content-master/Nivel3.png';
 import nivel4 from '../assets/content-master/Nivel4_gris.png';
 import nivel5 from '../assets/content-master/Nivel5_gris.png';
 import nivel6 from '../assets/content-master/Nivel6.png';
@@ -202,7 +202,7 @@ const contentMasterYear = [
 		temario: 'https://drive.google.com/file/d/1l3u-wmuoIymUBzk_nyjwZmupGnRE-EFC/view?usp=sharing',
 		level: 'Nivel 3',
 		buttonName: 'Sube el nivel 3',
-		button: false,
+		button: true,
 		options: [
 			{
 				id: 0,
@@ -231,7 +231,7 @@ const contentMasterYear = [
 				title: '5,99 USD',
 				price: '18.99 USD',
 				urls: {
-					paypal: 'https://pay.hotmart.com/Y95845229L?off=kwvn5iyi',
+					paypal: 'https://pay.hotmart.com/Y95845229L?off=ckjcb9yf',
 					card: 'https://checkout.wompi.co/l/TbmxvN',
 				},
 				line: false,
