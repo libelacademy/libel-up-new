@@ -19,8 +19,16 @@
 	font-family: var(--font-secondary);
 }
 
-.Navbar svg {
-	width: fit-content;
+.Navbar img {
+	max-width: 100%;
+	width: 100%;
+	display: block;
+	/* opcional */
+	-o-object-fit: cover;
+	object-fit: cover;
+	/* opcional */
+	-o-object-position: center center;
+	object-position: center center;
 }
 
 .blur-active {
@@ -489,7 +497,7 @@
 		justify-content: space-between;
 		position: relative;
 		/* background-color: var(--base-3); */
-		padding: 0px 25px;
+		padding: 24px 24px 0;
 	}
 
 	.menu-shortcuts-item {

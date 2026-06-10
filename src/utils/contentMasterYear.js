@@ -13,7 +13,7 @@ import nivel1 from '../assets/content-master/Nivel1.png';
 import nivel2 from '../assets/content-master/Nivel2.png';
 import nivel3 from '../assets/content-master/Nivel3.png';
 import nivel4 from '../assets/content-master/Nivel4.png';
-import nivel5 from '../assets/content-master/Nivel5_gris.png';
+import nivel5 from '../assets/content-master/Nivel5.png';
 import nivel6 from '../assets/content-master/Nivel6.png';
 
 const contentMasterYear = [
@@ -350,7 +350,7 @@ const contentMasterYear = [
 		temario: 'https://drive.google.com/file/d/1l3u-wmuoIymUBzk_nyjwZmupGnRE-EFC/view?usp=sharing',
 		level: 'Nivel 5',
 		buttonName: 'Sube el nivel 5',
-		button: false,
+		button: true,
 		options: [
 			{
 				id: 0,
@@ -379,8 +379,8 @@ const contentMasterYear = [
 				title: '5,99 USD',
 				price: '69 USD',
 				urls: {
-					paypal: 'https://pay.hotmart.com/R95841256W?off=rlf1hup5',
-					card: 'https://checkout.wompi.co/l/0DU6xV',
+					paypal: 'https://pay.hotmart.com/R95841256W?off=mg2gw7rs',
+					card: 'https://pay.hotmart.com/R95841256W?off=mg2gw7rs',
 				},
 				line: false,
 				active: true,

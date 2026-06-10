@@ -239,8 +239,11 @@ const Navbar = () => {
 					{/* <a href='https://cursos.libel.academy' style={{ marginRight: 20 }}>
 						Cursos
 					</a> */}
-					<a href='https://libel.academy/membresia' style={{ marginRight: 20 }}>
-						Membresía
+					<a
+						href='https://www.libel.academy/licencias-character-creator-iclone'
+						style={{ marginRight: 20 }}
+					>
+						Licencias
 					</a>
 					<a href='https://libel.academy/hub' style={{ marginRight: 20 }}>
 						HUB
@@ -317,17 +320,17 @@ const Navbar = () => {
 								}
 					}
 				>
-					<li className='menu-countdown'>
+					{/* <li className='menu-countdown'>
 						<a href='https://libel.academy/hub' className='menu-countdown-image'>
-							{/* <Image
+							<Image
 								webp={lo3dCampWebp}
 								src={lo3dCamp}
 								alt='3D Camp'
 								className='navbar-3d-camp-logo'
-							/> */}
+							/>
 							<img src={lo3dCamp} alt='logo' />
 						</a>
-						{/* <div
+						<div
 							style={{
 								width: '50%',
 								height: '100%',
@@ -356,8 +359,8 @@ const Navbar = () => {
 								</div>
 							</div>
 							<b style={{ fontSize: 12 }}>- 15 JULIO 2025 -</b>
-						</div> */}
-					</li>
+						</div>
+					</li> */}
 
 					<li className='menu-shortcuts'>
 						<span
@@ -409,7 +412,7 @@ const Navbar = () => {
 							href='https://libel.academy/licencias-character-creator-iclone'
 							className='menu-shortcuts-item'
 						>
-							Licencias CC4 + iCLONE
+							Licencias CC5 + iCLONE
 						</a>
 						<a href='https://libel.academy/resultados' className='menu-shortcuts-item'>
 							Resultados Alumnos
@@ -500,7 +503,7 @@ const Navbar = () => {
 										target={'_blank'}
 										rel='noreferrer'
 									>
-										ZBrush + CC4
+										ZBrush + CC5
 									</a>
 								</li>
 								<li>
@@ -587,7 +590,7 @@ const Navbar = () => {
 										target={'_blank'}
 										rel='noreferrer'
 									>
-										Licencias CC4 + iCLONE
+										Licencias CC5 + iCLONE
 									</a>
 								</li>
 								<li>
